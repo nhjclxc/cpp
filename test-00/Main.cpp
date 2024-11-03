@@ -1,6 +1,9 @@
 #include <iostream>
-#include "Main.h"
+
 using namespace std;
+
+#define PI 3.1415926
+
 
 
 void test()
@@ -135,6 +138,19 @@ int main()
 	// 实现财务记账
 	//test03();
 
-	test04();
+	//test04();
+
+
+	cout << "PI = " << PI << endl;
+
+	//PI = 3.0;
+	//cout << "PI = " << PI << endl;
+
+	const int PP = 3.1415926;
+
+	cout << "PP = " << PP << endl;
+	//PP = 3.2;
+	//cout << "PP = " << PP << endl;
+
 
 }
